@@ -137,7 +137,7 @@ public class RequestParamController {
      * @ModelAttribute 사용
      * 참고: model.addAttribute(helloData) 코드도 함께 자동 적용됨, 뒤에 model을 설명할 때 자세히 설명
      *
-     * 자동으로 HelloData객체 생성 -> heeloData객체의 프로퍼티 참음 -> 해당 프로퍼티의 setter 호출해 값 입력
+     * 자동으로 HelloData객체 생성 -> helloData객체의 프로퍼티 참음 -> 해당 프로퍼티의 setter 호출해 값 입력
      * url요청 파라미터를 자동으로 분석하여 @ModelAttribute한 변수helloData에 setXxx해서 값을 넣어줌.
      * ex) 요청 파라미터 이름이 username이면 setUsername()메서드를 찾아 호출하면서 값을 입력.
      *
